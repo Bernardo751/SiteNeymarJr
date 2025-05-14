@@ -146,6 +146,47 @@ header .container{
     object-fit: cover;
 }
 
+.imgcard{
+    width: 70%;
+}
+
+
+
+#acao .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; 
+    text-align: center;
+    padding: 50px 0;
+}
+
+#acao .item {
+    background-color: #6d6d6d;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba( 0, 0, 0, 0.10);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+
+}
+
+#acao .item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+#acao .item:active {
+    transform: scale(0.98);
+    box-shadow: 0 4px 6px rgba( 0, 0, 0, 0.15);
+}
+
+#acao .item p {
+    margin-top: 15px;
+    
+}
+
 
 
 
@@ -162,9 +203,9 @@ header .container{
         flex-direction: column;
     }
 
-    {
+    
 
-    }
+    
 
     section{
         scroll-margin-top: 180px;
