@@ -184,7 +184,16 @@ header .container{
 
 #acao .item p {
     margin-top: 15px;
+    font-size: 0.95em;
+    color: #373737;
     
+}
+
+#acao .imagem img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 
