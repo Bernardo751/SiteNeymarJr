@@ -154,8 +154,8 @@ header .container{
 
 #acao .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px; 
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px; 
     text-align: center;
     padding: 50px 0;
 }
