@@ -189,7 +189,7 @@ header .container{
     
 }
 
-#acao .imagem img {
+#acao .card imgcard {
     width: 100%;
     max-width: 150px;
     height: auto;
