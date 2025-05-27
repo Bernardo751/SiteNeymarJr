@@ -235,7 +235,18 @@ header .container{
     align-items: center;
 }
 
+.modal:target {
+    display: flex;
+}
 
+.modal-content {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
 
 
 @media (max-width:675px){
