@@ -208,6 +208,21 @@ header .container{
     text-align: center;
 }
 
+.card h3{
+    margin-top: 0;
+}
+
+.btn {
+ display: inline-block;
+ margin-top: 15px;
+ padding: 10px 20px;
+ background:#007bff
+ color: white 
+ text-decoration: none;
+ border-radius: 6px;
+ cursor: pointer;
+}
+
 
 @media (max-width:675px){
     header .container, .sobre-container{
