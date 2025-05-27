@@ -223,6 +223,20 @@ header .container{
  cursor: pointer;
 }
 
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba( 0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 
 @media (max-width:675px){
     header .container, .sobre-container{
