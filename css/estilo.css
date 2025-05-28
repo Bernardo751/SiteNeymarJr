@@ -199,7 +199,7 @@ header .container{
 
 
 .modal {
-    background-color: rgb(105, 104, 104);
+    background-color: white;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -207,11 +207,6 @@ header .container{
     margin: auto;
     text-align: center;
 }
-
-.card {
-    max-width: 300px;
-}
-
 
 
 .card h3{
@@ -247,7 +242,7 @@ header .container{
 }
 
 .modal-content {
-    background: rgb(189, 39, 39);
+    background: white;
     padding: 30px;
     border-radius: 10px;
     max-width: 400px;
