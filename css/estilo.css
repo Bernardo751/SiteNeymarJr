@@ -190,8 +190,8 @@ header .container{
 }
 
 #acao .imgcard {
-    width: 90%;
-    max-width: 150px;
+    width: 130%;
+    max-width: auto;
     height: auto;
     margin-bottom: 10px;
 }
