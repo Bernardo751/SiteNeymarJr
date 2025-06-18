@@ -190,10 +190,11 @@ header .container{
 }
 
 #acao .imgcard {
-    width: 130%;
+    width: 100%;
     max-width: auto;
-    height: auto;
+    height: 100%;
     margin-bottom: 10px;
+    
 }
 
 
@@ -242,12 +243,12 @@ header .container{
 }
 
 .modal-content {
-    max-height: 90vh;
+    max-height: 70vh;
     overflow-y: auto;
     background: white;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
-    max-width: 600px;
+    max-width: 500px;
     text-align: justify;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 
