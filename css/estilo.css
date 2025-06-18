@@ -122,23 +122,22 @@ header .container{
 
 
 
-.hex-grid{
+.hex.grid{
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
-    flex: 1;    
+    flex: 1;
 }
 
 .hex{
     width: 140px;
     height: 120px;
-    clip-path: polygon(50% 0%, 93% 25%, 93 75%, 50% 100%, 7% 75%, 7% 25%);
+    clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
     overflow: hidden;
-    background-color: #ccc;
+    background-color: #404b62 ;
     position: relative;
 }
-
 
 .hex img{
     width: 100%;
@@ -147,26 +146,30 @@ header .container{
 }
 
 .imgcard{
-    width: 70%;
+    width: 100%;
+   
 }
 
 
 
 #acao .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 30px; 
-    text-align: center;
-    padding: 50px 0;
+    display: grid; /* Ativa o layout em grade (grid) */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    /* Cria colunas que se ajustam automaticamente ao tamanho da tela.
+       Cada coluna terá no mínimo 200px e ocupará uma fração igual (1fr) do espaço disponível. */
+    gap: 20px; /* Espaço entre os itens do grid */
+    text-align: center; /* Centraliza o texto dentro de cada item */
+    padding: 50px 0; 
 }
 
 #acao .item {
-    background-color: #2b2b2b;
-    border: 1px solid #ffffff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba( 0, 0, 0, 0.10);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: rgb(36, 33, 33); /* Fundo branco para o card */
+    border: 1px solid #ddd; /* Borda fina e cinza clara */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; 
+    /* Transição suave ao passar o mouse (hover ou active) */
     cursor: pointer;
 
 }
@@ -190,9 +193,9 @@ header .container{
 }
 
 #acao .imgcard {
-    width: 100%;
-    max-width: auto;
-    height: 100%;
+    width: 100%; /* Imagem ocupa toda a largura do container pai */
+    max-width: 150px; /* Mas nunca ultrapassa 150px de largura */
+    height: auto; /* Mantém a proporção original da imagem */
     margin-bottom: 10px;
     
 }
@@ -200,7 +203,11 @@ header .container{
 
 
 .card {
-    max-width: 300px;
+    max-width: 100%;
+
+
+    
+
 }
 
 .card h3{
@@ -218,6 +225,15 @@ header .container{
     cursor: pointer; 
 
 }
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: auto;    
+    text-align: justify;    
+  } 
 
 .modal {
     position: fixed;
@@ -252,6 +268,38 @@ header .container{
     text-align: justify;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .galeria_img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    border: 4px solid #000000;
+  }
+  
+  .galeria img:hover {
+    transform: scale(1.05);
+  }
+
+  #conquistas {
+    background-color: rgb(87, 87, 87);
+}
+
+#conquistas h1 {
+    color: black;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .close-btn {
@@ -290,7 +338,10 @@ header .container{
             min-height: 60vh;
         }
     
-
+        .galeria {
+            flex-direction: column;
+            display: flex;
+        }
     
 
     
