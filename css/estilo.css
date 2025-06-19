@@ -70,6 +70,16 @@ header .container{
 .banner{
     background:url(../img/d95xeng-ca244cae-a6b2-4f56-a7b1-439e93a28f97.png) no-repeat center/cover;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 30px;
+    color: rgb(16, 37, 105);
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 5px 5px 5px white;
     
 
 
@@ -303,7 +313,9 @@ box-shadow: 0 15px 15px #45446d;
     border-radius: 10px;
     box-shadow: 0 15px 15px #000000d0;
     border: 3px solid #2f2cdb;
-    
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: grid;
+    gap: 20px;
 
 }
    
