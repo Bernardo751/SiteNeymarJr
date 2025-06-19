@@ -152,7 +152,11 @@ header .container{
    
 }
 
+#acao {
+    text-align: center;
+    background-color: #ffffff;
 
+}
 
 #acao .container {
     display: grid; /* Ativa o layout em grade (grid) */
@@ -162,17 +166,13 @@ header .container{
     gap: 20px; /* Espaço entre os itens do grid */
     text-align: center; /* Centraliza o texto dentro de cada item */
     padding: 50px 0; 
+    
 }
 
 #acao .item {
-    background-color: rgb(36, 33, 33); /* Fundo branco para o card */
-    border: 1px solid #ddd; /* Borda fina e cinza clara */
-    border-radius: 10px; /* Bordas arredondadas */
-    padding: 20px; /* Espaçamento interno */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor */
-    transition: transform 0.2s ease, box-shadow 0.2s ease; 
-    /* Transição suave ao passar o mouse (hover ou active) */
-    cursor: pointer;
+border-radius: 50px;
+background-color: #ffffff;
+
 
 }
 
@@ -184,13 +184,13 @@ header .container{
 
 #acao .item:active {
     transform: scale(0.98);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 10px rgb(0, 0, 0);
 }
 
 #acao .item p {
     margin-top: 15px;
     font-size: 0.95em;
-    color: #777777;
+    color: #000000;
     
 }
 
@@ -199,6 +199,7 @@ header .container{
     max-width: 150px; /* Mas nunca ultrapassa 150px de largura */
     height: auto; /* Mantém a proporção original da imagem */
     margin-bottom: 10px;
+    border-radius: 20px;
     
 }
 
@@ -278,26 +279,30 @@ header .container{
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     max-width: 500px;
-    margin: 0 auto;
+    margin: auto;
     
-   
+      
   }
 
-  .galeria_img {
-    width: 100%;
+.galeria_img {
+    width: auto;
     height: auto;
-    border-radius: 10px;
+    border-radius: 50px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
-    border: 4px solid #000000;
+    border: 4px solid #221d1d;
+    margin: auto;
+    
   }
+   
   
-  .galeria img:hover {
+.galeria img:hover {
     transform: scale(1.05);
   }
 
-  #conquistas {
-    background-color: rgb(87, 87, 87);
+#conquistas {
+    background-color:  #777777;
+    
 }
 
 #conquistas h1 {
@@ -305,6 +310,7 @@ header .container{
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
+    font-size: 35px;
 }
 
 .close-btn {
