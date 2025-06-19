@@ -79,7 +79,7 @@ header .container{
     color: rgb(16, 37, 105);
     font-size: 40px;
     text-align: center;
-    text-shadow: 5px 5px 5px white;
+    text-shadow: 5px 5px 5px #800;
     
 
 
@@ -316,6 +316,7 @@ box-shadow: 0 15px 15px #45446d;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     display: grid;
     gap: 20px;
+    
 
 }
    
