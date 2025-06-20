@@ -313,10 +313,9 @@ box-shadow: 0 15px 15px #45446d;
     border-radius: 10px;
     box-shadow: 0 15px 15px #000000d0;
     border: 3px solid #2f2cdb;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
     display: grid;
-    gap: 20px;
-    
+    gap: 10px;
 
 }
    
@@ -376,6 +375,11 @@ box-shadow: 0 15px 15px #45446d;
         }
     
         .galeria {
+            flex-direction: column;
+            display: flex;
+        }
+
+        .imagemgaleria {
             flex-direction: column;
             display: flex;
         }
