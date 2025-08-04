@@ -70,7 +70,7 @@ header .container{
 }
 
 .banner{
-    background:url(../img/d95xeng-ca244cae-a6b2-4f56-a7b1-439e93a28f97.png) no-repeat top center/cover;
+    background:url(../img/d95xeng-ca244cae-a6b2-4f56-a7b1-439e93a28f97.png) no-repeat center/cover;
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -369,11 +369,6 @@ box-shadow: 0 15px 15px #45446d;
         .galeria {
             display: flex;
             flex-direction: column;
-        }
-
-        .banner{
-            margin-top: 90px;
-            padding-top: 90px;
         }
     
 
