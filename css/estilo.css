@@ -101,7 +101,7 @@ header .container{
     align-items: center;
     justify-content: center;
     padding-left: 30px;
-    color: rgb(29, 157, 243);
+    color: #900000;
     font-size: 40px;
     text-align: center;
     text-shadow: 5px 5px 5px rgb(255, 255, 255);
@@ -358,12 +358,44 @@ box-shadow: 0 15px 15px #45446d;
     font-size: 1.3em;
 
 }
-
+.grupo-form input,
+.grupo-form select,
 .grupo-form textarea {
     padding: 10px;
-    border: 1px solid #35a3ec;
-    
+    border: 2px solid #00b1e7;
+    margin-top: 8px;
+    border-radius: 6px;
+    font-size: 1em;
+}
 
+.grupo-form input[type="checkbox"],
+.grupo-form input[type="radio"] {
+    margin-right: 8px;
+    margin-top: 0;
+  }
+
+.grupo-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+ input[type="range"] {
+    accent-color: #000000;
+  }
+
+body.paginamensagem {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body.paginamensagem main {
+  flex: 1;
+}
+
+.mensagem{
+  margin-top: 10%;
+  background-color: rgb(66, 138, 185);
 }
 
 #conquistas h1 {
