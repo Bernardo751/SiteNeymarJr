@@ -30,17 +30,85 @@
     </header>
     <section id="inicio" class="bannercontato">
         <h2>
-            Entre em contato conosco! 
+            Fale conosco! 
         </h2>
        
     </section>
     <main>
+        <section id="contato"> 
+            <div class="container">
+                <h1 class="centraliza">Contato</h1>
+                <form class="formulario-contato" action="https://formsubmit.co/bernardoantunestg7@gmail.com" method="post">
+                    <div class="grupo-form">
+                      <label for="nome">Nome completo:</label>
+                      <input type="text" id="nome" name="nome" required>
+                    </div>
+              
+                    <div class="grupo-form">
+                      <label for="email">E-mail:</label>
+                      <input type="email" id="email" name="email" required>
+                    </div>
+              
+                    <div class="grupo-form">
+                      <label for="idade">Idade:</label>
+                      <input type="number" id="idade" name="idade" min="10" max="120">
+                    </div>
 
+                    <div class="grupo-form">
+                        <label>Gênero:</label>
+                        <input type="radio" name="genero" value="feminino"> Feminino
+                        <input type="radio" name="genero" value="masculino"> Masculino
+                        <input type="radio" name="genero" value="outro"> Outro
+                      </div>
+              
+ 
+              
+                    <div class="grupo-form">
+                      <label for="area">Qual foi o melhor time que Neymar Jr jogou?</label>
+                      <select id="area" name="area">
+                        <option value="">Santos Fc</option>
+                        <option value="">Barcelona</option>
+                        <option value="">Paris Saint German</option>
+                        <option value="">Al-Hilal</option>
+                      </select>
+                    </div>
+              
+                    <div class="grupo-form">
+                      <label>Quanto você é fã do Neymar Jr:</label>
+                      <input type="range" min="0" max="100" name="interesse">
+                    </div>
+              
+                    
+              
+                    <div class="grupo-form">
+                      <label>Voê ja viu algum jogo de Neymar Jr?</label>
+                      <input type="radio" name="uso[]" value=""> Sim
+                      <input type="radio" name="uso[]" value=""> Não
+                      <input type="radio" name="uso[]" value=""> Muitos                      
+                    </div>
+              
 
-        <section id="contato">
-            <h1>Contato</h1>
-            <p></p>            
+              
+                    <div class="grupo-form">
+                      <label for="mensagem">Mensagem:</label>
+                      <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+                    </div>
+              
+                    <div class="grupo-form centraliza">
+                      <button type="submit" class="btn">Enviar</button>
+                      <input type="hidden" name="_captcha" value="false"> 
+                      <input type="hidden" name="_next" value="">       
+                                 
+                    </div>
+                  </form>
+                </div>
+
+               
+            </div>
         </section>
+
+
+
     </main>
     <footer>
        <p>2025 - Criado por Bernardo Antunes - Todos os Direitos Reservados</p>
