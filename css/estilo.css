@@ -357,7 +357,9 @@ box-shadow: 0 15px 15px #45446d;
     margin-bottom: 25px;
     font-size: 1.3em;
 
+
 }
+
 .grupo-form input,
 .grupo-form select,
 .grupo-form textarea {
@@ -372,6 +374,7 @@ box-shadow: 0 15px 15px #45446d;
 .grupo-form input[type="radio"] {
     margin-right: 8px;
     margin-top: 0;
+    
   }
 
 .grupo-form label {
