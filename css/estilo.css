@@ -343,12 +343,12 @@ box-shadow: 0 15px 15px #45446d;
 
 .formulario-contato{
     border-radius: 15px;
-    background-color: #ffffff;
+    background-color: #ffffff69;
     padding: 30px;
     box-shadow: 5px 5px 10px rgba(7, 6, 6, 0.5);
     margin: auto;
     margin-top: 50px;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 .grupo-form {
@@ -396,6 +396,10 @@ body.paginamensagem main {
 .mensagem{
   margin-top: 10%;
   background-color: rgb(66, 138, 185);
+}
+
+.textoenviadocomsuceso{
+    background-color: #ffffff;
 }
 
 #conquistas h1 {
