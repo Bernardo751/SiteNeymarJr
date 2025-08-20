@@ -16,7 +16,7 @@
 }
 
 body{
-    background-color: #35a3ec ;
+    background-color: #e4e7e9 ;
 }
 
 section{
@@ -343,12 +343,13 @@ box-shadow: 0 15px 15px #45446d;
 
 .formulario-contato{
     border-radius: 15px;
-    background-color: #ffffff69;
+    background-color: #2fabd1d7;
     padding: 30px;
     box-shadow: 5px 5px 10px rgba(7, 6, 6, 0.5);
     margin: auto;
     margin-top: 50px;
     max-width: 1000px;
+    
 }
 
 .grupo-form {
@@ -357,14 +358,13 @@ box-shadow: 0 15px 15px #45446d;
     margin-bottom: 25px;
     font-size: 1.3em;
 
-
 }
 
 .grupo-form input,
 .grupo-form select,
 .grupo-form textarea {
     padding: 10px;
-    border: 2px solid #00b1e7;
+    border: 2px solid #000000ad;
     margin-top: 8px;
     border-radius: 6px;
     font-size: 1em;
@@ -398,7 +398,7 @@ body.paginamensagem main {
 
 .mensagem{
   margin-top: 10%;
-  background-color: rgb(66, 138, 185);
+  background-color: rgb(72, 140, 185);
 }
 
 .textoenviadocomsuceso{
@@ -472,6 +472,51 @@ body.paginamensagem main {
 
  
     }
+
+    table{
+    width: 100%;
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch; 
+  }
+  
+  table {
+    min-width: auto;
+    background-color: white; 
+    border-radius: 10px;
+   
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255); 
+    color: #000000;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  thead {
+    background: linear-gradient(90deg, #75807e, #999ca0);
+    color: #000;
+    
+  }
+  
+  tbody tr:hover {
+    background-color: rgba(88, 221, 221, 0.925);
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
 
 
 
